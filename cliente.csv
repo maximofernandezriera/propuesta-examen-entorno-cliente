@@ -1,0 +1,51 @@
+Question,Answer 1,Answer 2,Answer 3,Answer 4,Time limit (sec),Correct Answer(s)
+¿Diferencia principal entre let y var?,let: ámbito de bloque / var: función,var es inmutable / let no,let solo números / var cadenas,No hay diferencia,20,1
+¿Qué valor devuelve la expresión: Boolean(0)?,true,false,undefined,null,20,2
+¿Cómo se define una Arrow Function que suma dos números?,function suma(a, b) => a + b,const suma = (a, b) => a + b,const suma => (a, b) return a + b,let suma = a, b => a + b,20,2
+¿Qué método de Array transforma elementos y devuelve uno nuevo?,.forEach(),.filter(),.map(),.reduce(),20,3
+Desestructuración: extraer 'nombre' del objeto 'usuario',const { nombre } = usuario;,const [ nombre ] = usuario;,const nombre = usuario(nombre);,let usuario -> nombre;,20,1
+¿Método DOM para seleccionar un elemento por ID?,document.querySelector('.id'),document.getElementByTagName('id'),document.getElementById('miId'),document.find('#miId'),20,3
+¿Cómo evitar que un formulario recargue la página?,event.stopPropagation(),event.preventDefault(),event.stopImmediatePropagation(),event.cancelBubble = true,20,2
+¿Diferencia entre innerHTML y textContent?,innerHTML procesa HTML / textContent texto plano,textContent es más lento,innerHTML solo lee datos,Son iguales,20,1
+¿Cómo añadir la clase "activo" a un elemento "btn"?,btn.class = "activo",btn.classList.add("activo"),btn.style.class = "activo",btn.className.push("activo"),20,2
+¿Qué es el "Event Bubbling"?,Evento baja del padre al hijo,Evento sube del objetivo a los padres,Un error de memoria,Crear eventos personalizados,20,2
+¿Cuál es el estado inicial de una Promesa?,Fulfilled,Rejected,Pending,Completed,20,3
+¿Qué palabra clave acompaña a 'await'?,sync,defer,promise,async,20,4
+¿Qué devuelve fetch() inicialmente?,El JSON final,Una Promesa (Response),Un error,String HTML,20,2
+¿Método para convertir objeto JS a texto JSON?,JSON.parse(),JSON.stringify(),JSON.toText(),JSON.convert(),20,2
+¿En qué cola entran las Promesas (Event Loop)?,Call Stack,Web API,Microtask Queue,Callback Queue,20,3
+¿Fichero que gestiona dependencias en Node/JS?,index.html,package.json,readme.md,node_modules,20,2
+¿Función principal de Vite o Webpack?,Base de datos local,Empaquetar y optimizar (Bundling),Validar HTML,Traducir Python a JS,20,2
+¿Qué es Supabase en el contexto del módulo?,Framework CSS,Alternativa Open Source a Firebase,Librería de testing,Editor de código,20,2
+¿Comando para instalar dependencias del package.json?,npm start,npm build,npm init,npm install,20,4
+¿Ventaja de Módulos ES6 (import/export)?,Organizar código y scope privado,Carga más lenta,Solo para servidores,Reemplazan al HTML,20,1
+¿Qué es TypeScript?,Nuevo lenguaje distinto a JS,Superset de JS con tipado estático,Bases de datos,Motor de renderizado,20,2
+En Angular ¿qué decorador define un Componente?,@Module,@Injectable,@Component,@Directive,20,3
+Angular: ¿Cómo pasar datos de Padre a Hijo?,Servicios,@Output,@Input,Rutas,20,3
+¿Qué es un "Servicio" en Angular?,Clase para compartir lógica/datos,Etiqueta HTML especial,Función de servidor,Estilo CSS global,20,1
+¿Qué significa el tipo 'any' en TypeScript?,Debe ser número,Acepta cualquier tipo (sin chequeo),Es nulo,Solo lectura,20,2
+¿Diferencia localStorage vs sessionStorage?,localStorage tiene menos espacio,sessionStorage se borra al cerrar,localStorage solo guarda números,Son lo mismo,20,2
+¿Qué es una SPA (Single Page Application)?,App de una línea de código,Web que no recarga al navegar,Web sin JavaScript,Solo para móviles,20,2
+¿Librería mencionada para Tests Unitarios?,Vitest / Jest,jQuery,Bootstrap,MySQL,20,1
+¿Qué es el Two-Way Binding ([(ngModel)])?,HTML actualiza JS y viceversa,JS solo actualiza HTML,Solo envía datos al server,Validación de contraseñas,20,2
+¿Código HTTP de éxito?,404,500,200,301,20,3
+Deno: ¿Característica clave de seguridad?,Acceso total por defecto,No soporta TS,Requiere permisos explícitos (flags),Solo Windows,20,3
+Deno: ¿Cómo maneja dependencias?,package.json,Importando URLs (https://...),Descarga manual zip,No soporta dependencias,20,2
+TS: ¿Definir estructura sin generar código compilado?,class,interface,struct,shape,20,2
+Angular CLI: ¿Comando para crear componente?,ng add component,ng new,ng create,ng generate component (ng g c),20,4
+Angular: ¿Qué significa [propiedad]="valor"?,Event Binding,Property Binding (Expresión),Interpolación,Comentario,20,2
+¿Librería de Angular para reactividad (Observables)?,Lodash,ReactQuery,RxJS,Axios,20,3
+¿Diferencia Observable vs Promise?,Promesas emiten múltiples valores,Observables emiten flujo y cancelables,Observables son nativos JS,Ninguna,20,2
+TS: ¿Variable string O number?,string & number,string && number,string | number,string , number,20,3
+Angular: ¿Directiva para mostrar/ocultar condicional?,ng-show,*ngIf (o @if),ng-display,v-if,20,2
+TS: ¿Definir propiedad privada en clase?,var private x,hidden x,private x (o #x),_x,20,3
+¿Qué es el "Shadow DOM"?,Copia del DOM,Encapsula DOM y estilos del resto,DOM del servidor,Gráficos oscuros,20,2
+Fetch: ¿Dónde se define GET o POST?,type,verb,method,action,20,3
+¿Qué es un "Polyfill"?,Minificador CSS,Código para soporte en navegadores viejos,Framework,Variable JS,20,2
+Angular: ¿Interpolar variable 'titulo'?,{titulo},[[titulo]],{{ titulo }},(titulo),20,3
+MVC: ¿Qué es la "Vista"?,Lógica y BD,Interfaz de usuario (UI),Controlador de eventos,Configuración server,20,2
+Angular: ¿Método que corre al inicializar?,constructor,render,ngOnInit,componentDidMount,20,3
+¿Qué es "Tree Shaking"?,Organizar carpetas,Eliminar código no usado (dead code),Refrescar navegador,Compilar TS,20,2
+Deno: ¿Comando para modo observador (watch)?,deno run --live,deno start,deno run --watch,nodemon,20,3
+Angular: ¿Decorador para recibir datos?,@Output,@Input,@Prop,@Receive,20,2
+¿JS es "Single Threaded"? Significa que...,Solo una variable global,Funciona un navegador a la vez,Un solo hilo de ejecución principal,No usa funciones,20,3
